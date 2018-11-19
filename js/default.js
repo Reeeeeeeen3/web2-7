@@ -19,6 +19,8 @@ do{
    var answer = parseInt(window.prompt('0~10の数字を半角で入力してください'));
    }
   
+   return answer;
+   
 }while(i == 1);
 
 //結果を表示
