@@ -5,7 +5,7 @@ class JSample7_1{
 var number = Math.floor(Math.random()*11);
 var answer = parseInt(window.prompt('数あてゲーム。0~10の数字を半角で入力してください！'));
 
-int i = 1;
+var i = 1;
 
 do{
 var message;
