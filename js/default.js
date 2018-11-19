@@ -22,5 +22,3 @@ if(answer === number) {
 //結果を表示
 document.getElementById('choice').textContent = message;
 }while(i == 1);
-
-return i;
