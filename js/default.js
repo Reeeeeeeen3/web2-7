@@ -9,7 +9,6 @@ for(var i=0; i <100; i++){
    if(answer === number) {
    message = 'おめでとうございます！あたりです！';
    break;
-   i = 1;
    }else if (answer < number){
    var answer = parseInt(window.prompt('残念！もっと大きいです'));
    }else if (answer > number){
