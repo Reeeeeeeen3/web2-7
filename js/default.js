@@ -6,8 +6,7 @@ var answer = parseInt(window.prompt('数あてゲーム。0~10の数字を半角
 var i = 0;
 var message;
 
-do{
-
+while(i == 1){
 
 if(answer === number) {
   message = 'おめでとうございます！あたりです！';
@@ -20,9 +19,9 @@ if(answer === number) {
     var answer = parseInt(window.prompt('0~10の数字を半角で入力してください'));
   }
   
-
+}
 
 //結果を表示
 document.getElementById('choice').textContent = message;
 
-}while(i == 1);
+
