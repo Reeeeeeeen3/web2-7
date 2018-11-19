@@ -1,12 +1,13 @@
 //答えを用意
 var number = Math.floor(Math.random()*11);
 
+
 var i = 0;
+var message;
 
 do{
-//ダイアログ表示
 var answer = parseInt(window.prompt('数あてゲーム。0~10の数字を半角で入力してください！'));
-var message;
+
 if(answer === number) {
   message = 'あたり！';
   i++;
